@@ -54,7 +54,7 @@ create_country_leader = {
 	ideology = radical_socialist_subtype
 }
 create_country_leader = {
-	name = "Willian Joyce"
+	name = "William Joyce"
 	picture = "gfx/leaders/BRG/Portrait_England_WilliamJoyce.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
