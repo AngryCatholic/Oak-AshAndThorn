@@ -1,0 +1,520 @@
+###########################
+# Based Britain Events
+###########################
+# By JOCN AND ANGRYCATHOLIC
+###########################
+
+add_namespace = basedbrit
+
+country_event = { # Return of the Exiles
+	id = basedbrit.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.1"}
+	title = basedbrit.1.t
+	desc = basedbrit.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # k based
+		name = basedbrit.1.a
+		ai_chance = {
+			factor = 50
+		}
+		BRG = {
+			add_state_core = 123
+			add_state_core = 338
+			add_state_core = 122
+			add_state_core = 128
+			add_state_core = 127
+			add_state_core = 125
+			add_state_core = 129
+			add_state_core = 132
+			add_state_core = 130
+			add_state_core = 131
+			add_state_core = 121
+			add_state_core = 133
+			add_state_core = 136
+			add_state_core = 120
+			add_state_core = 126
+			add_state_core = 938
+		}
+		country_event = {
+				id = basedbrit.2
+				days = 3
+		}
+	}
+}
+
+country_event = { # Return of the Exiles
+	id = basedbrit.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.2"}
+	title = basedbrit.2.t
+	desc = basedbrit.2.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # Libtarf Time
+		name = basedbrit.2.a
+		ai_chance = {
+			factor = 50
+		}
+		country_event = {
+				id = basedbrit.4
+				days = 3
+		}
+	}
+
+	option = { # Nationalist Aliiance
+		name = basedbrit.2.b
+		ai_chance = {
+			factor = 50
+		}
+		country_event = {
+				id = basedbrit.5
+				days = 3
+		}
+	}
+}
+
+country_event = { #Liberal Britain
+	id = basedbrit.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event basedbrit.4" }
+	title = basedbrit.4.t
+	desc = basedbrit.4.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = basedbrit.4.a
+		add_political_power = 100
+		set_country_flag = BRG_liberal_britain
+	}
+}
+
+country_event = { # Appeals to the Right
+	id = basedbrit.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.5"}
+	title = basedbrit.5.t
+	desc = basedbrit.5.d
+
+	fire_only_once = yes
+	is_triggered_only = yes		
+
+	option = { # We Based n shiet
+		name = basedbrit.5.a
+		ai_chance = {
+			factor = 50
+		}
+		country_event = {
+				id = basedbrit.6
+				days = 3
+		}
+	}
+}
+
+country_event = { #Joyce and Leese press for Power
+	id = basedbrit.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.6"}
+	title = basedbrit.6.t
+	desc = basedbrit.6.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # sure homie
+		name = basedbrit.6.a
+		ai_chance = {
+			factor = 50
+		}
+		country_event = {
+				id = basedbrit.7
+				days = 3
+		}
+	}
+
+	option = { # fuck no baby
+		name = basedbrit.6.b
+		ai_chance = {
+			factor = 50
+		}
+		country_event = {
+				id = basedbrit.8
+				days = 3
+		}
+	}
+}
+
+country_event = { # NATPOP UOB BABEY
+	id = basedbrit.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.7"}
+	title = basedbrit.7.t
+	desc = basedbrit.7.d
+
+	fire_only_once = yes
+	is_triggered_only = yes		
+
+	option = { # SWEET
+		name = basedbrit.7.a
+		add_political_power = 100
+		set_country_flag = BRG_national_populist_britain
+		BRG = {
+			set_politics = {
+				ruling_party = national_populist
+				last_election = "1935.11.14"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		}
+	}
+}
+
+country_event = { #Offers from the Right Club
+	id = basedbrit.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.8"}
+	title = basedbrit.8.t
+	desc = basedbrit.8.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # RAMSAY TIME BABEBEY
+		name = basedbrit.8.a
+		ai_chance = {
+			factor = 50
+		}
+		country_event = {
+				id = basedbrit.9
+				days = 3
+		}
+	}
+
+	option = { # HOBART CROMWELL 2
+		name = basedbrit.8.b
+		ai_chance = {
+			factor = 50
+		}
+		country_event = {
+				id = basedbrit.10
+				days = 3
+		}
+	}
+}
+
+country_event = { # INTEGRALIST CATHOLIC BRITAIN
+	id = basedbrit.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.9"}
+	title = basedbrit.9.t
+	desc = basedbrit.9.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.9.a
+		add_political_power = 100
+		set_country_flag = BRG_ramsay_britain
+		set_cosmetic_tag = BRG_CATHOLIC
+	}
+}
+
+
+country_event = { # CROMWELL 2.0 FOR REAL THIS TIIME
+	id = basedbrit.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.10"}
+	title = basedbrit.10.t
+	desc = basedbrit.10.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.10.a
+		add_political_power = 100
+		set_country_flag = BRG_HOBART_britain
+	}
+}
+
+country_event = { # Confronting the Trojan Jews
+	id = basedbrit.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.11"}
+	title = basedbrit.11.t
+	desc = basedbrit.11.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.11.a
+		add_political_power = 100
+	}
+}
+
+
+country_event = { # End of Party Politics
+	id = basedbrit.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.12"}
+	title = basedbrit.12.t
+	desc = basedbrit.12.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.12.a
+
+		create_country_leader = {
+			name = "Archibald Maule Ramsay"
+			desc = "POLITICS_BASERAMSAY_DESC"
+			picture = "Portrait_BRG_Ramsay.tga"
+			expire = "1965.1.1"
+			ideology = paternal_autocrat_subtype
+			traits = {  }
+		}	
+        remove_all_ministers = yes
+        add_ideas = {
+			BRG_Archibald_Ramsay_hog_pau
+			BRG_Evelyn_Waugh_for_pau
+			BRG_Hilaire_Belloc_eco_pau
+			BRG_TS_Elliot_sec_pau
+		}
+		BRG = {
+			set_politics = {
+				ruling_party = paternal_autocrat
+				last_election = "1935.11.14"
+				election_frequency = 48
+				elections_allowed = no
+			}
+
+			set_popularities = {
+				totalist = 5
+				radical_socialist = 17
+				syndicalist = 5
+				social_democrat = 10
+				social_liberal = 3
+				market_liberal = 5
+				social_conservative = 5
+				authoritarian_democrat = 0
+				paternal_autocrat = 45
+				national_populist = 5
+			}
+		}
+	}
+}
+
+country_event = { # Aristocratic Alliance
+	id = basedbrit.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.13"}
+	title = basedbrit.13.t
+	desc = basedbrit.13.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.13.a
+		add_political_power = 100
+	}
+}
+
+country_event = { # Local Authority
+	id = basedbrit.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.14"}
+	title = basedbrit.14.t
+	desc = basedbrit.14.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.14.a
+		add_political_power = 100
+	}
+}
+
+country_event = { # Legacy of the Cavaliers
+	id = basedbrit.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.15"}
+	title = basedbrit.15.t
+	desc = basedbrit.15.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.15.a
+		add_political_power = 100
+	}
+}
+
+country_event = { #Protocols of Zion
+	id = basedbrit.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.16"}
+	title = basedbrit.16.t
+	desc = basedbrit.16.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.16.a
+		add_political_power = 100
+	}
+}
+
+country_event = { # A Concordat with Rome
+	id = basedbrit.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.17"}
+	title = basedbrit.17.t
+	desc = basedbrit.17.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.17.a
+		add_political_power = 100
+	}
+}
+
+country_event = { # RAMSAY TIME
+	id = basedbrit.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.18"}
+	title = basedbrit.18.t
+	desc = basedbrit.18.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # SWEET
+		name = basedbrit.18.a
+		add_political_power = 100
+		create_country_leader = {
+			name = "Lord High Chancellor Ramsay"
+			picture = "Portrait_BRG_LHC_Ramsay.tga"
+			expire = "1965.1.1"
+			ideology = paternal_autocrat_subtype
+			traits = { BRG_lord_high_chan }
+		}
+	}
+}
+
+
+country_event = { # Empowering the Police
+	id = basedbrit.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.19"}
+	title = basedbrit.19.t
+	desc = basedbrit.19.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # Cool
+		name = basedbrit.19.a
+		add_political_power = 100
+	}
+}
+
+
+country_event = { # Starting the Socialist Purge
+	id = basedbrit.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.20"}
+	title = basedbrit.20.t
+	desc = basedbrit.20.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # Poggers
+		name = basedbrit.20.a
+		add_political_power = 50
+		country_event = {
+				id = basedbrit.21
+				days = 3
+		}
+	}
+}
+
+country_event = { # Starting with the Moderates
+	id = basedbrit.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.21"}
+	title = basedbrit.21.t
+	desc = basedbrit.21.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # Poggers
+		name = basedbrit.21.a
+		add_political_power = 50
+		country_event = {
+				id = basedbrit.22
+				days = 3
+		}
+	}
+}
+
+country_event = { # Moving to the Radical Socialists
+	id = basedbrit.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.22"}
+	title = basedbrit.22.t
+	desc = basedbrit.22.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # Poggers
+		name = basedbrit.22.a
+		add_political_power = 50
+		country_event = {
+				id = basedbrit.23
+				days = 3
+		}
+	}
+}
+
+country_event = { # Finishing the Totalists
+	id = basedbrit.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.23"}
+	title = basedbrit.23.t
+	desc = basedbrit.23.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # Cool
+		name = basedbrit.23.a
+		add_political_power = 50
+	}
+}
+
+country_event = { # Knight Larping
+	id = basedbrit.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.24"}
+	title = basedbrit.24.t
+	desc = basedbrit.24.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # Cool
+		name = basedbrit.24.a
+		add_political_power = 50
+	}
+}
+
+country_event = { # Aristocratic Nationalist Friends
+	id = basedbrit.25
+	immediate = {log = "[GetDateText]: [Root.GetName]: event basedbrit.25"}
+	title = basedbrit.25.t
+	desc = basedbrit.25.d
+
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+	option = { # Cool
+		name = basedbrit.25.a
+		add_political_power = 50
+	}
+}
