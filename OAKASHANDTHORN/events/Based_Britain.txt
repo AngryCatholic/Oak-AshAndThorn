@@ -398,7 +398,7 @@ country_event = { # RAMSAY TIME
 			traits = { BRG_lord_high_chan }
 		}
 	}
-	option = { # King Richard IV
+	option = { # King Richard IV Plantegnant
 		name = basedbrit.18.b
 		add_political_power = 100
 		create_country_leader = {
@@ -409,12 +409,23 @@ country_event = { # RAMSAY TIME
 			traits = { }
 		}
 	}
-	option = { # King Charles III
+	option = { # King Charles III Habsburg
 		name = basedbrit.18.c
 		add_political_power = 100
 		create_country_leader = {
 			name = "King Charles III"
 			picture = "Portrait_BRG_karl_pius.tga"
+			expire = "1965.1.1"
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	option = { # King James III Jacobite
+		name = basedbrit.18.e
+		add_political_power = 100
+		create_country_leader = {
+			name = "King James III"
+			picture = "Portrait_BRG_james_III.tga"
 			expire = "1965.1.1"
 			ideology = paternal_autocrat_subtype
 			traits = { }
