@@ -565,8 +565,18 @@ leader_traits = {
 		army_defence_factor = 0.025
 	}
 
-	####BASEDBRIT
+	####BASEDBRIT 
 	BRG_lord_high_chan = { #Ramsay
+		random = no
+		war_support_factor = 0.20
+		stability_factor = 0.15
+	}
+	BRG_the_New_King = { #newkings
+		random = no
+		war_support_factor = 0.20
+		stability_factor = 0.15
+	}
+	BRG_the_leader = { #joyce
 		random = no
 		war_support_factor = 0.20
 		stability_factor = 0.15
