@@ -406,7 +406,7 @@ country_event = { # RAMSAY TIME
 			picture = "Portrait_BRG_Plant_king.tga"
 			expire = "1965.1.1"
 			ideology = paternal_autocrat_subtype
-			traits = { }
+			traits = { BRG_the_New_King }
 		}
 	}
 	option = { # King Charles III Habsburg
@@ -417,7 +417,7 @@ country_event = { # RAMSAY TIME
 			picture = "Portrait_BRG_karl_pius.tga"
 			expire = "1965.1.1"
 			ideology = paternal_autocrat_subtype
-			traits = { }
+			traits = { BRG_the_New_King }
 		}
 	}
 	option = { # King James III Jacobite
@@ -425,10 +425,10 @@ country_event = { # RAMSAY TIME
 		add_political_power = 100
 		create_country_leader = {
 			name = "King James III"
-			picture = "Portrait_BRG_james_III.tga"
+			picture = "Portrait_Wales_Rupprecht_I.tga"
 			expire = "1965.1.1"
 			ideology = paternal_autocrat_subtype
-			traits = { }
+			traits = { BRG_the_New_King }
 		}
 	}
 }
