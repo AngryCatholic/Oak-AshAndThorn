@@ -1446,10 +1446,10 @@ focus_tree = {
 		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRG_cult_of_personality 
-			focus = BRG_military_command_economy 
-			focus = BRG_presidential_powers 
+			focus = BRG_military_command_economy
 			focus = BRG_militaryindustrial_complex 
+		}
+		prerequisite = { 	
 			focus = BRG_mandatory_cadet_programs 
 		}
 		ai_will_do = {
@@ -1495,8 +1495,8 @@ focus_tree = {
 		prerequisite = { 
 			focus = BRG_cult_of_personality 
 			focus = BRG_presidential_powers 
-			focus = BRG_military_command_economy 
-			focus = BRG_militaryindustrial_complex 
+		}
+		prerequisite = { 	
 			focus = BRG_mandatory_cadet_programs 
 		}
 		ai_will_do = {
